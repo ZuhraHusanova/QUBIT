@@ -1,0 +1,25 @@
+.connect {
+    padding-bottom: 40px;
+    &__subtitle {
+        color: #1c1c1c;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px; /* 281.25% */
+        margin-top: 29px;
+    }
+    &__brand{
+        max-width: 140px;
+        max-height: 182px;
+        margin: 0 auto;
+    }
+    &__pol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 16px;
+    }
+}

@@ -1,0 +1,76 @@
+.we {
+    padding: 94px 0 85px;
+    margin: 0 auto;
+    &__title {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 112.5% */
+    }
+    &__subtitle {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        margin: 12px 0 50px;
+    }
+    &__row {
+        width: 980px;
+        margin: 0 auto;
+    }
+    &__col {
+        display: flex;
+    }
+    &__card {
+        margin: 15px;
+        width: 460px;
+        border-radius: 8px 10px 10px 8px;
+        background: #17002e;
+        padding: 30px 50px 23px 30px;
+    }
+    &__top {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__photo {
+        width: 50px;
+        height: 50px;
+    }
+    &__toptitle {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */
+    }
+    &__text {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 146.667% */
+        margin-top: 18px;
+        width: 380px;
+        height: 44px;
+    }
+    &__text1 {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px; /* 100% */
+        margin-top: 8px;
+        padding-bottom: 9px;
+        border-bottom: 2px solid #fff;
+    }
+}

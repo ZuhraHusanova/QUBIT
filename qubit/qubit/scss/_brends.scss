@@ -1,0 +1,36 @@
+.brand {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 20px;
+    &__subtitle {
+        color: #1c1c1c;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 166.667% */        
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 59px;
+        padding: 20px;
+        margin-top: 15px;
+        padding: 14px 0;
+    }
+    &__title {
+        color: #1c1c1c;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        border-bottom: 2px solid #6F2CFF;
+        width: 170px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}

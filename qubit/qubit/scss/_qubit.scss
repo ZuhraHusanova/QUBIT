@@ -1,0 +1,44 @@
+.qubit {
+    background-color: ghostwhite;
+    padding: 40px 0 20px;
+    &__col {
+        width: 1260px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    &__left{
+        width: 590px;
+    }
+    &__title {
+        color: #17002e;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 112.5% */
+    }
+    &__text {
+        color: #000;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 230.769% */
+        margin-top: 47px;
+    }
+    &__note {
+        color: #000;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 230.769% */
+        margin: 11px 0 74px;
+    }
+    &__right{
+        width: 567px;
+        height: 567px;
+    }
+}

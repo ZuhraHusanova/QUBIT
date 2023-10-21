@@ -1,0 +1,73 @@
+.fon {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    &__content {
+        width: 605px;
+    }
+    &__subtitle {
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    &__title {
+        color: #000;
+        font-family: Roboto;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 61px;
+        margin-top: 19px;
+    }
+    &__title1 {
+        color: #6f2dff;
+        font-family: Roboto;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+    }
+    &__text {
+        color: #000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        width: 438px;
+        margin-top: 37px;
+    }
+    &__down {
+        display: flex;
+        margin-top: 4px;
+    }
+    &__inpt {
+        width: 268px;
+        height: 45px;
+        border-radius: 27.5px 0px 0px 27.5px;
+        border: 1px solid #6f2cff;
+        background: #fff;
+        padding: 12px 26px;
+    }
+    &__btn {
+        border-radius: 0px 27.5px 27.5px 0px;
+        background: #6f2cff;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 140% */
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        padding: 12px 45px;
+    }
+}

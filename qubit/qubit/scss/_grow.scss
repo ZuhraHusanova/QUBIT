@@ -1,0 +1,75 @@
+.grow {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 80px;
+    &__left {
+        width: 50%;
+    }
+    &__title {
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 112.5% */
+    }
+    &__in {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+    &__lnk {
+        color: #000;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14px; /* 100% */
+        border-bottom: 2px solid #6f2dff;
+    }
+    &__note {
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 200% */
+    }
+    &__b {
+        line-height: 15px;
+        margin-top: 7px;
+    }
+    &__right {
+        width: 50%;
+    }
+    &__at {
+        display: flex;
+    }
+    &__once {
+        width: 310px;
+        height: 220px;
+        padding: 8px 16px;
+    }
+    &__nums {
+        color: #000;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 112.5% */
+        margin-bottom: 15px;
+    }
+    &__text {
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 146.667% */
+    }
+}

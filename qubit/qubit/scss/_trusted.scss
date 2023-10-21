@@ -1,0 +1,60 @@
+.trusted {
+    padding: 78px 0 100px;
+    margin: 0 auto;
+    background-color:ghostwhite;
+    &__title {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 112.5% */
+        margin-bottom: 70px;
+    }
+    &__row {
+        width: 1040px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+    }
+    &__col {
+        padding: 0 20px;
+    }
+    &__card {
+        width: 320px;
+        height: 440px;
+        text-align: center;
+        background-color: #fff;
+    }
+    &__photo {
+        width: 320px;
+        height: 205px;
+    }
+    &__brand {
+        height: 35px;
+        width: 100%;
+        margin: 25px auto;
+    }
+    &__text {
+        color: #6f2cff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 122.222% */
+        width: 211px;
+        margin: 0 auto;
+    }
+    &__nayz{
+        position: absolute;
+        top: 220px;
+        left: -40px;
+    }
+    &__nayza{
+        position: absolute;
+        top: 220px;
+        right: -80px;
+    }
+}

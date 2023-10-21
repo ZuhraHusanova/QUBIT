@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+@import "_navbar.scss";
+@import "_fon.scss";
+@import "_brends.scss";
+@import "_grow.scss";
+@import "_new.scss";
+@import "_all.scss";
+@import "_what.scss";
+@import "_trusted.scss";
+@import "_we.scss";
+@import "_qubit.scss";
+@import "_book.scss";
+@import "_connect.scss";
+@import "_foot.scss";
